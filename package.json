@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node --harmony index.js"
+    "start": "node --harmony index.js"
   },
   "repository": "",
   "author": "",
   "license": "BSD",
   "dependencies": {
     "dbus-native": "git+https://github.com/sidorares/node-dbus.git#743d0ca31e8589bb8b71ce0b12d675cfcc572c96",
-    "dbus": "~0.2.9"
+    "dbus": "~0.2.9",
+    "node-networkmanager": "git+https://github.com/JumpLink/node-networkmanager.git"
   }
 }

@@ -1,6 +1,8 @@
 /*
+ * Note: the networkmanager module might need node 0.10 (if it's not active, run `nvm use 0.10.16` on olimex)
+ *
  * TODO
- * - first! try to use the other dbus module...
+ * - use the node-networkmanager module and see if it supports everything we need
  * - the code getService seems to call a Notify method?
  *
  * MODULES
